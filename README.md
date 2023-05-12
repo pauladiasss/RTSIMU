@@ -1,6 +1,30 @@
 # RTSIMU: Real-Time Simulation tool for IMU sensors
 
 ---
+# Authors
+
+- name: Paula Dias
+  affiliations:
+  - name: EPMQ, CCG ZGDV Institute, Guimarães, Portugal<br/>
+- name: Arthur Matta
+  affiliations:
+  - name: EPMQ, CCG ZGDV Institute, Guimarães, Portugal<br/>
+- name: André Pilastri
+  affiliations:
+  - name: EPMQ, CCG ZGDV Institute, Guimarães, Portugal<br/>
+- name: Paulo Cortez
+  affiliations:
+  - name: ALGORITMI/LASI, Dep. Information Systems, University of Minho, Guimarães,
+      Portugal<br/>
+- name: Luís Miguel Matos
+  affiliations:
+  - name: ALGORITMI/LASI, Dep. Information Systems, University of Minho, Guimarães,
+      Portugal<br/>
+
+---
+
+
+---
 ## Software Description
 
 ---
@@ -22,3 +46,5 @@ link soon.
 Any feedback will be appreciated.
 For questions and other suggestions contact paulacdias2000@gmail.com <br/>
 Found any bugs? Post Them on the github page of the project!
+
+

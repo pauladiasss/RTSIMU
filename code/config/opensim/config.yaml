@@ -1,0 +1,47 @@
+defaults:
+  - base_opensim_config
+
+model_path: "/data/opensim_model/calibrated_STVgoDigital_Body.osim"  # path to the OpenSim model.
+
+visualize: False
+frames_per_second: 2
+
+coordinates:
+  right_abduction: "shoulder_abduction_r"
+  right_flexion: "shoulder_flexion_r"
+  right_rotation: "shoulder_rotation_r"
+  right_elevation: "clav_elev_r"
+  left_abduction: "shoulder_abduction_l"
+  left_flexion: "shoulder_flexion_l"
+  left_rotation: "shoulder_rotation_l"
+  left_elevation: "clav_elev_l"
+
+sensor_to_opensim_rotation:
+  x: "-pi/2"
+  y: "0"
+  z: "0"
+
+risk:
+  severe:
+    duration: 4 # seconds
+    rules: # @value will be replaced by the actual value during evaluation.
+      right_abduction: "@value > 60"
+      right_flexion: '@value > 60'
+      right_rotation: '@value < 75 or @value > 105' # '@value < -15 or @value > 15'
+      right_elevation: '@value > 0'
+      left_abduction: '@value > 60'
+      left_flexion: '@value > 60'
+      left_rotation: '@value < -15 or @value > 15'
+      left_elevation: '@value > 0'
+
+  moderate:
+    duration: 8 # seconds
+    rules: # @value will be replaced by the actual value during evaluation.
+      right_abduction: "40 < @value"
+      right_flexion: '40 < @value'
+      right_rotation: '@value < -15 or @value > 15'
+      right_elevation: '@value > 0'
+      left_abduction: '40 < @value'
+      left_flexion: '40 < @value'
+      left_rotation: '@value < -15 or @value > 15'
+      left_elevation: '@value > 0'

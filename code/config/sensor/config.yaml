@@ -1,0 +1,51 @@
+defaults:
+  - base_sensor_config
+
+# - Name: Represents the device location in the body, e.g., 'RSHO' for right shoulder and 'RUPA' for right upper arm.
+# - Frame: Frame of reference of the device relative to the OpenSim Model.
+# - Enabled: boolean that indicates whether the device is enabled or not.
+
+
+sensors:
+  - name: "C7"
+    frame: "thorax_imu"
+    enabled: true
+
+  - name: "RSHO"
+    frame: "clavicle_r_imu"
+    enabled: true
+
+  - name: "LSHO"
+    frame: "clavicle_l_imu"
+    enabled: true
+
+  - name: "RUPA"
+    frame: "humerus_r_imu"
+    enabled: true
+
+  - name: "LUPA"
+    frame: "humerus_l_imu"
+    enabled: true
+
+  - name: "SACR"
+    frame: "sacral_imu"
+    enabled: true
+
+# Settings for the Altitude and Heading Reference System (AHRS) algorithm employed to estimate the orientation of the
+# Kallisto devices through a sensor fusion technique using the IMU measurements.
+#
+# - Gain: Determines the influence of the gyroscope relative to other sensors.
+# - Acceleration rejection: Threshold (in degrees) used by the acceleration rejection feature. A value of zero will
+#   disable this feature
+# - Magnetic rejection: Threshold (in degrees) used by the magnetometer rejection feature. A value of zero will
+#   disable this feature
+# - Rejection timeout: Acceleration and magnetic rejection timeout period (in samples). A value of zero will disable
+#   the acceleration and magnetic rejection features.
+# - Include Magnetometer: boolean that indicates whether the magnetometer measurements are used or not.
+
+AHRS:
+  settings:
+    gain: 0.5
+    acceleration_rejection: 10
+    magnetic_rejection: 20
+    rejection_timeout: 500

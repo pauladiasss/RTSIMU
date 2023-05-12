@@ -1,0 +1,26 @@
+defaults:
+  - base_config
+  - _self_
+  - sensor: config
+  - opensim: config
+  - override hydra/job_logging: colorlog
+  - override hydra/hydra_logging: colorlog
+
+# Verbose mode. Value can be a Boolean, a String or a List:
+#
+# hydra.verbose=true : Sets the log level of all loggers to DEBUG
+# hydra.verbose=NAME : Sets the log level of the logger NAME to DEBUG.
+# hydra.verbose=[NAME1,NAME2]: Sets the log level of the loggers NAME1 and NAME2 to DEBUG.
+# Available NAMEs are C7, RSHO, LSHO, RUPA, LUPA, SACR, OPSM, ML, MAIN, and TLGF.
+hydra:
+  verbose:
+    - C7
+    - RSHO
+    - LSHO
+    - RUPA
+    - LUPA
+    - SACR
+    - OPSM
+    - MAIN
+
+data_path: "../results"  # path to where to save the data.
