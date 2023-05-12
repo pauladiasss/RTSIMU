@@ -1,7 +1,7 @@
 # RTSIMU: Real-Time Simulation tool for IMU sensors
 
 ---
-## Experiência com dados inerciais (IMUs) 
+## Software Description
 
 ---
 
