@@ -3,23 +3,11 @@
 ---
 # Authors
 
-- name: Paula Dias
-  affiliations:
-  - name: EPMQ, CCG ZGDV Institute, Guimarães, Portugal<br/>
-- name: Arthur Matta
-  affiliations:
-  - name: EPMQ, CCG ZGDV Institute, Guimarães, Portugal<br/>
-- name: André Pilastri
-  affiliations:
-  - name: EPMQ, CCG ZGDV Institute, Guimarães, Portugal<br/>
-- name: Paulo Cortez
-  affiliations:
-  - name: ALGORITMI/LASI, Dep. Information Systems, University of Minho, Guimarães,
-      Portugal<br/>
-- name: Luís Miguel Matos
-  affiliations:
-  - name: ALGORITMI/LASI, Dep. Information Systems, University of Minho, Guimarães,
-      Portugal<br/>
+- Paula Dias EPMQ, CCG ZGDV Institute, Guimarães, Portugal<br/>
+- Arthur Matta EPMQ, CCG ZGDV Institute, Guimarães, Portugal<br/>
+- André Pilastri EPMQ, CCG ZGDV Institute, Guimarães, Portugal<br/>
+- Paulo Cortez ALGORITMI/LASI, Dep. Information Systems, University of Minho, Guimarães, Portugal <br/>
+- Luís Miguel Matos ALGORITMI/LASI, Dep. Information Systems, University of Minho, Guimarães,Portugal <br/>
 
 ---
 
