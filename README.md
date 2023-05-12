@@ -25,7 +25,7 @@ This software allows the analysis of upper body movements using Inertial Measure
 To check this software running you can access the codeocean capsule via: 
 
 ``` cmd
-CodeOcean Link(https://www.10.24433/CO.4852020.v1)
+https://www.10.24433/CO.4852020.v1
 ```
 
 
