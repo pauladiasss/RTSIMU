@@ -6,8 +6,8 @@
 - Paula Dias EPMQ, CCG ZGDV Institute, Guimarães, Portugal<br/>
 - Arthur Matta EPMQ, CCG ZGDV Institute, Guimarães, Portugal<br/>
 - André Pilastri EPMQ, CCG ZGDV Institute, Guimarães, Portugal<br/>
-- Paulo Cortez ALGORITMI/LASI, Dep. Information Systems, University of Minho, Guimarães, Portugal <br/>
 - Luís Miguel Matos ALGORITMI/LASI, Dep. Information Systems, University of Minho, Guimarães,Portugal <br/>
+- Paulo Cortez ALGORITMI/LASI, Dep. Information Systems, University of Minho, Guimarães, Portugal <br/>
 
 
 
