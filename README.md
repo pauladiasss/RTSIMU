@@ -20,5 +20,5 @@ link soon.
 # Suggestions and feedback
 
 Any feedback will be appreciated.
-For questions and other suggestions contact paulacdias2000@gmail.com
+For questions and other suggestions contact paulacdias2000@gmail.com <br/>
 Found any bugs? Post Them on the github page of the project!
