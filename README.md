@@ -9,7 +9,6 @@
 - Paulo Cortez ALGORITMI/LASI, Dep. Information Systems, University of Minho, Guimarães, Portugal <br/>
 - Luís Miguel Matos ALGORITMI/LASI, Dep. Information Systems, University of Minho, Guimarães,Portugal <br/>
 
----
 
 
 ---
