@@ -28,7 +28,13 @@ This section explains how to use the software developed.
 Install the necessary python packages and opensim:
 
 ```python
-pip install
+conda env create -f environment.yml
+```
+
+Activate conda environment:
+
+```python
+conda activate rtsimu
 ```
 
 # CodeOcean capsule
