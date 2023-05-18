@@ -1,10 +1,9 @@
 defaults:
   - base_opensim_config
 
-model_path: "/data/opensim_model/calibrated_STVgoDigital_Body.osim"  # path to the OpenSim model.
+model_path: "data/opensim_model/calibrated_STVgoDigital_Body.osim"  # path to the OpenSim model.
 
-visualize: False
-frames_per_second: 2
+visualize: True
 
 coordinates:
   right_abduction: "shoulder_abduction_r"

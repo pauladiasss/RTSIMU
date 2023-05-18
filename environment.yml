@@ -1,6 +1,3 @@
-# conda env create -f environment.yml
-# conda activate rtsimu
-
 name: rtsimu
 channels:
   - opensim-org

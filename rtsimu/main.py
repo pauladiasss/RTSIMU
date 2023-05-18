@@ -38,7 +38,7 @@ def write_data(path: Path, data: Union[FrameCollection, IMUCollection, RiskColle
     path.parent.mkdir(parents=True, exist_ok=True)
     data.to_csv(path, mode="a" if path.exists() else "w", header=not path.exists())
 
-@hydra.main(config_path=Path("/code/config").absolute().as_posix(), config_name="config", version_base=None)
+@hydra.main(config_path=Path("rtsimu/config").absolute().as_posix(), config_name="config", version_base=None)
 def main(config: BaseConfig):
     """Main function."""
     logger = log.getLogger("MAIN")
@@ -94,9 +94,10 @@ def main(config: BaseConfig):
     severe_risk = Risk()
     moderate_risk = Risk()
 
+
     quaternion_collection = {k: IMUCollection() for k in sensor_details.keys()}
 
-    df = pd.read_csv("/data/data_sensors/"+s.name+".csv")
+    df = pd.read_csv(config.sensor.data_sensors+s.name+".csv")
 
     logger.info("Running...")
     

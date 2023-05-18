@@ -37,5 +37,9 @@ class SensorConfig:
     """
     Sensor configuration.
     """
+    data_sensors: str = MISSING
     sensors: List[Sensor] = field(default_factory=list)
     AHRS: AHRSConfig = field(default_factory=AHRSConfig)
+    
+
+    

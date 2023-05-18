@@ -5,6 +5,7 @@ defaults:
 # - Frame: Frame of reference of the device relative to the OpenSim Model.
 # - Enabled: boolean that indicates whether the device is enabled or not.
 
+data_sensors: "data/data_sensors/"
 
 sensors:
   - name: "C7"

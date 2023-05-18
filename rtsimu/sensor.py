@@ -49,10 +49,9 @@ def sensor_process(
 
     logger.info("Data from sensor.")
 
-    df = pd.read_csv("/data/data_sensors/"+name+".csv")
+    df = pd.read_csv("data/data_sensors/"+name+".csv")
     
     for row in df.itertuples(index=False, name='Pandas'):
-
         timestamp = row[0]
         gyr = np.array(row[1:4])
         acc = np.array(row[4:7])
