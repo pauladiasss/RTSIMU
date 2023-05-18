@@ -28,7 +28,7 @@ conda activate rtsimu
 Run the motion simulation software in real time:
 
 ```python
-python main.py
+python rtsimu/main.py
 ```
 
 
