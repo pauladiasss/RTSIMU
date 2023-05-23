@@ -42,7 +42,7 @@ To visualize the upper body movements in real time just change in the file with 
 To check this software running you can access the codeocean capsule via: 
 
 ``` cmd
-[https://www.10.24433/CO.4852020.v1](https://codeocean.com/capsule/0968525/tree/v1)
+https://codeocean.com/capsule/0968525/tree/v1
 ```
 
 
