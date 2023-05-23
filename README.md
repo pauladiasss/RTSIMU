@@ -10,25 +10,22 @@ This software allows the analysis of upper body movements using Inertial Measure
 
 This section explains how to use the software developed.
 
-### Instalation
+### Dependencies 
 
-Create conda environment with the necessary python packages and opensim:
+To run the software you need `python 3.8` and `Opensim 4.4`.
 
-```python
-conda env create -f environment.yml
-```
-
-Activate conda environment:
+To install the required packages:
 
 ```python
-conda activate rtsimu
+pip install -r requirements.txt
 ```
+
 ### Run the software
 
 Run the motion simulation software in real time:
 
 ```python
-python main.py
+python rtsimu/main.py
 ```
 
 
@@ -38,7 +35,7 @@ In this software, mainly two libraries are used for processing the inertial sens
 
 ## Display of movements in real time
 
-To visualize the upper body movements in real time just change in the file with the directory `rtsimu/config/opensim/config.yaml` the variable `visualize: True`
+To visualize the upper body movements in real time just change in the file with the directory `rtsimu/config/opensim/config.yaml` the variable `visualize: True`.
 
 ## CodeOcean capsule
 
@@ -68,5 +65,3 @@ Distributed under the MIT License. See `LICENSE` for more information.
 Any feedback will be appreciated.
 For questions and other suggestions contact paulacdias2000@gmail.com <br/>
 Found any bugs? Post Them on the GitHub page of the project!
-
-

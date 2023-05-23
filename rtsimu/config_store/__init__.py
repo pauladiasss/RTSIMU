@@ -9,7 +9,7 @@ class BaseConfig:
     """
     Base config for the project.
     """
-    data_path: str = "${hydra:runtime.cwd}/data/runs/${now:%Y-%m-%dT%H-%M-%S}"
+    data_path: str = "results"
     opensim_process_data: bool = True
     sensor: SensorConfig = field(default_factory=SensorConfig)
     opensim: OpensimConfig = field(default_factory=OpensimConfig)

@@ -26,7 +26,7 @@ risk:
     rules: # @value will be replaced by the actual value during evaluation.
       right_abduction: "@value > 60"
       right_flexion: '@value > 60'
-      right_rotation: '@value < 75 or @value > 105' # '@value < -15 or @value > 15'
+      right_rotation: '@value < -15 or @value > 15'
       right_elevation: '@value > 0'
       left_abduction: '@value > 60'
       left_flexion: '@value > 60'
