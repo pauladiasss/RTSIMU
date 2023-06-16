@@ -37,6 +37,10 @@ In this software, mainly two libraries are used for processing the inertial sens
 
 To visualize the upper body movements in real time just change in the file with the directory `rtsimu/config/opensim/config.yaml` the variable `visualize: True`.
 
+## Video example
+
+https://github.com/pauladiasss/RTSIMU/assets/133373742/ac720332-6566-48a5-9b16-23c6d751347f
+
 ## CodeOcean capsule
 
 To check this software running you can access the codeocean capsule via: 
